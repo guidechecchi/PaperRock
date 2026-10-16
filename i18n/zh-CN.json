@@ -1,0 +1,22 @@
+﻿{
+"app":{"name":"PaperRock","tagline":"Paperclip 智能管理器","version":"2.0"},
+"lang":{"select":"选择语言 / Select language / Selecione o idioma","opt1":"[1] 葡萄牙语 (巴西)","opt2":"[2] 英语 (美国)","opt3":"[3] 中文 (简体)","saved":"语言偏好已保存"},
+"menu":{"sec1":"诊断与恢复","sec2":"备份与还原","sec3":"代理与模型","sec4":"高级工具","item1":"完整诊断","item2":"恢复","item3":"健康检查","item4":"应急工具包","item5":"完整备份","item6":"还原","item7":"列出备份","item8":"清理备份","item9":"管理角色","item10":"管理代理","item11":"管理 Ollama","item12":"心跳","item13":"灵魂创建器","item14":"清理","item15":"日志","item16":"设置","item17":"试运行模式","item18":"HTML 报告","exit":"退出","choose":"选择一个选项","invalid":"无效选项","status":"状态","lastbackup":"上次备份"},
+"common":{"press":"按任意键...","success":"成功","error":"错误","warning":"警告","processing":"处理中...","completed":"已完成","cancelled":"已取消","confirm_q":"确认？","yes":"S","no":"N","online":"在线","offline":"离线","notfound":"未找到","back":"返回菜单..."},
+"diag":{"title":"完整诊断","running":"检查组件...","api_pc":"Paperclip API","api_ol":"Ollama API","models":"Ollama 模型","agents":"代理","personas":"角色","adapters":"适配器","files":"基本文件","disk":"磁盘空间","ok_all_adapters":"全部使用 ollama_tools","wrong_adapters":"个适配器错误","all_files":"全部存在","missing":"个文件缺失","concluded":"诊断完成"},
+"rec":{"title":"系统恢复","pre":"恢复前诊断...","start":"开始恢复...","fix_adapters":"修复适配器...","val_personas":"验证角色...","val_models":"验证模型...","create_files":"创建基本文件...","test_api":"测试 API...","done":"恢复完成"},
+"bak":{"title":"完整备份","creating":"创建备份...","personas":"角色","workspaces":"工作区","config":"配置","agents":"代理 (API)","done":"备份已创建","size":"大小","clean":"清理旧备份..."},
+"res":{"title":"还原备份","list":"可用备份","none":"未找到备份","choose":"备份编号","confirm_q":"将覆盖当前数据。继续？","restoring":"还原中...","done":"还原完成","prebackup":"已创建安全预备份"},
+"per":{"title":"管理角色","list":"找到的角色","create":"创建缺失角色","edit":"编辑角色","delete":"删除角色","created":"已创建","deleted":"已删除","missing":"缺失"},
+"age":{"title":"管理代理","list":"代理","fix_adapters":"批量修复适配器","set_model":"设置模型","create":"创建代理","delete":"删除代理","name_q":"名称","model_q":"模型","created":"已创建","deleted":"已删除","fixed":"已修复"},
+"oll":{"title":"管理 OLLAMA","list":"已安装模型","pull":"下载模型","remove":"删除模型","name_q":"模型名称","pulled":"已下载","removed":"已删除","vram":"检测到的 VRAM","rec":"硬件推荐模型"},
+"hb":{"title":"心跳构建器","desc":"让代理自主运行的计划任务。","select":"选择代理","sel_ok":"已选择代理","freq_q":"频率（如 1 小时）","task_q":"主要任务","created":"HEARTBEAT.md 已创建","sched_q":"在本系统计划？(S/N)","sched_done":"计划已创建"},
+"soul":{"title":"灵魂创建器","desc":"为每个代理创建 SOUL.md（身份、权限、限制）。","gen":"生成中","done":"SOUL.md 已创建"},
+"cln":{"title":"清理与优化","scan":"扫描中...","logs":"旧日志","orphan":"孤立工作区","preview":"可回收空间","confirm_q":"删除列出的项目？","freed":"已释放空间"},
+"hc":{"title":"健康检查","run":"运行检查...","ok":"健康","warn":"注意","bad":"严重","done":"检查完成"},
+"emg":{"title":"应急工具包","opt1":"终止卡住的 node/postgres 进程","opt2":"清理 PostgreSQL 锁","opt3":"重置适配器为 ollama_tools","opt4":"重建基本文件","opt5":"完全重置（输入 RESET 确认）","confirm_reset":"输入 RESET 确认","done":"操作完成"},
+"log":{"title":"日志查看器","tail":"最后几行","filter":"按级别过滤 (INFO/SUCCESS/WARNING/ERROR 或空)","cleared":"日志已清理"},
+"set":{"title":"设置","show":"当前配置","edit":"编辑值","key_q":"键 (如 paperclip.url)","val_q":"新值","saved":"已保存","reset":"恢复默认"},
+"dry":{"title":"试运行模式（模拟）","plan":"将执行的操作","backup_would":"备份将复制","recovery_would":"恢复将修复","end":"模拟完成（未更改任何内容）"},
+"rep":{"title":"HTML 报告","gen":"生成报告...","open":"现在打开？(S/N)","done":"报告已生成"}
+}

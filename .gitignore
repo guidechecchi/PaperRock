@@ -1,0 +1,7 @@
+backups/
+logs/
+reports/
+config/settings.json
+config/language.json
+*.zip
+.DS_Store

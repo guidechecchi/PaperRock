@@ -1,0 +1,6 @@
+﻿{
+  "paperclip": { "url": "http://127.0.0.1:3100", "rootDir": "D:\\paperclip", "personasDir": "D:\\paperclip\\personas", "workspaceDir": "D:\\paperclip\\workspaces" },
+  "ollama":    { "url": "http://127.0.0.1:11434", "defaultModel": "qwen3:8b", "technicalModel": "qwen2.5-coder:7b", "strategyModel": "qwen2.5:14b" },
+  "agents":    { "defaultAdapter": "ollama_tools", "defaultContext": 8192, "essentialFiles": ["SOUL.md","HEARTBEAT.md","MISSION.md","MEMORY.md"] },
+  "backup":    { "maxBackups": 10 }
+}
